@@ -1,0 +1,36 @@
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ git --version
+git version 2.25.1.windows.1
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ git add .
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ git commit -m " add 2 files "
+[master 43c2cb4]  add 2 files
+ 2 files changed, 2 insertions(+)
+ create mode 100644 comiit2.txt
+ create mode 100644 commit 1.txt
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ git log
+commit 43c2cb47a90b5c8c5bceae564581f59e33bae4e5 (HEAD -> master)
+Author: Lalit <1998lalitgiri123@gmail.com>
+Date:   Fri Feb 28 13:45:42 2020 +0530
+
+     add 2 files
+
+commit 6609cff9601f6f709d08b8401f5baf4c9773fef4
+Author: Lalit <1998lalitgiri123@gmail.com>
+Date:   Thu Feb 27 18:09:12 2020 +0530
+
+    add my name
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ ^C
